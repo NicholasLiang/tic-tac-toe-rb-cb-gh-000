@@ -67,5 +67,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.all?{|grid| grid == "X" || gril == "O"}
+  board.all?{|grid| grid == "X" || grid == "O"}
 end
