@@ -105,6 +105,6 @@ def play(board)
   if !over(board)
     turn(board)
   else
-    win
+    win = winner(board)
   end
 end
