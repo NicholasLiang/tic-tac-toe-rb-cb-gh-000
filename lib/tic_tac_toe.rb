@@ -75,6 +75,7 @@ def won?(board)
       if position1 == position2 && position1 == position3
       end
     end
+  end
     
 end
 
