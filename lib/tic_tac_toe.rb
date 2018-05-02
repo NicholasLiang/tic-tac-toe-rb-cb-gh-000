@@ -69,6 +69,8 @@ def won?(board)
          position_taken?(board,winArr[2]) 
       
       position1 = board[winArr[0]]
+      position1 = board[winArr[0]]
+      position1 = board[winArr[0]]
     
 end
 
