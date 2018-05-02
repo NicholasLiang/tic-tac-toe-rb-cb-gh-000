@@ -108,5 +108,6 @@ def play(board)
     win = winner(board)
     if win == nil
       puts "Cat's Game!"
+    else
   end
 end
