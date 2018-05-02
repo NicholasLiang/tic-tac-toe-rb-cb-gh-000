@@ -34,7 +34,7 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-  
+  puts "Enter 1:9"
 end
 
 def turn_count(board)
