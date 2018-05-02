@@ -69,3 +69,5 @@ end
 def full?(board)
   board.all?{|grid| grid == "X" || grid == "O"}
 end
+
+def draw?(board)
