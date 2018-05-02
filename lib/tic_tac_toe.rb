@@ -104,7 +104,9 @@ end
 def play(board)
   until over(board)
     turn(board)
-  end`
+  end
+  
+  if won?(board)
 
   win = winner(board)
   if win == nil
