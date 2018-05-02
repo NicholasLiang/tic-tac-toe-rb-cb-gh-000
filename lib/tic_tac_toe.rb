@@ -38,6 +38,7 @@ def turn(board)
   next_move = gets.strip
   index = input_to_index(next_move)
   
+  
 end
 
 def turn_count(board)
