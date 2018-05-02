@@ -39,7 +39,8 @@ def turn(board)
   index = input_to_index(next_move)
   
   if valid_move?(board, index)
-    move(board, index, current_player)
+    move(board, index, current_player(board))
+    
 end
 
 def turn_count(board)
