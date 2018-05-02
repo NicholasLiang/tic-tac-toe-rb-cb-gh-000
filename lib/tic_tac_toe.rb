@@ -102,6 +102,7 @@ def winner(board)
 end
 
 def play(board)
+  until over(board)
   if !over(board)
     turn(board)
   else
