@@ -35,6 +35,7 @@ end
 
 def turn(board)
   puts "Enter 1-9:"
+  next_move = gets.strip
 end
 
 def turn_count(board)
