@@ -19,3 +19,4 @@ WIN_COMBINATIONS = [
 
 def input_to_index(next_move)
   next_move.to_i
+end
