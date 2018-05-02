@@ -103,6 +103,6 @@ end
 
 def play(board)
   if !over(board)
-    
+    turn()
     
 end
