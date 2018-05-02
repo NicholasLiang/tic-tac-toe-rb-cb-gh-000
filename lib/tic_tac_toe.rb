@@ -71,6 +71,8 @@ def won?(board)
       position1 = board[winArr[0]]
       position2 = board[winArr[1]]
       position3 = board[winArr[2]]
+      
+      if 
     
 end
 
