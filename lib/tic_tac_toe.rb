@@ -100,3 +100,5 @@ def winner(board)
   end
   false
 end
+
+def play()
