@@ -42,4 +42,6 @@ def turn_count(board)
   board.each_with_index do |_, index|
     if position_taken?(board, index)
       count += 1
+    end
+  end
 end
