@@ -64,7 +64,7 @@ end
 
 def won?(board)
   WIN_COMBINATIONS.each do |winArr|
-    if board[winArr[0]] == " "
+    if board[winArr[0]]
     
 end
 
