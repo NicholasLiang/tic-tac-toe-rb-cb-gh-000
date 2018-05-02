@@ -17,6 +17,4 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def play(board)
-  
-end
+def input_to_index()
