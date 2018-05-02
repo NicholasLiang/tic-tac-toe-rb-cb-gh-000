@@ -72,7 +72,7 @@ def won?(board)
       position2 = board[winArr[1]]
       position3 = board[winArr[2]]
       
-      if 
+      if position1 == position2 && position1 == position3
     
 end
 
