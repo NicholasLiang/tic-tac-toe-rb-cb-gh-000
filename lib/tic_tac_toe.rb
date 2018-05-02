@@ -29,7 +29,7 @@ def position_taken?(board, index)
   !(board[index] == nil || board[index] == " " || board[index] == "")
 end
 
-def valid_move(board, index)
+def valid_move?(board, index)
   if index >= 0 && index < 9 && !position_taken?(board, index)
     return true
   end
