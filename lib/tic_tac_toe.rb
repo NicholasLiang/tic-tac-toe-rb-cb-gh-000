@@ -106,5 +106,6 @@ def play(board)
     turn(board)
   else
     win = winner(board)
+    if win == 
   end
 end
