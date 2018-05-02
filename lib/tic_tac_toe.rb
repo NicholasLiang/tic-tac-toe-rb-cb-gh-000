@@ -40,5 +40,6 @@ end
 def turn_count(board)
   count = 0
   board.each {|_, index| count += position_taken?(board, index)}
+  puts count
   count
 end
