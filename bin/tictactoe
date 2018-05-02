@@ -4,4 +4,6 @@ require_relative '../lib/tic_tac_toe'
 
 # Global Variable
 board = [" ", " "," "," "," "," "," "," "," "]
+
+puts ""
 play(board)
