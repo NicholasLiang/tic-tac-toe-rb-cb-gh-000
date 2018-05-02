@@ -17,4 +17,4 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def input_to_index()
+def input_to_index(next_move)
