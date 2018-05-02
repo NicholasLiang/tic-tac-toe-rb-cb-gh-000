@@ -39,6 +39,7 @@ def turn(board)
   index = input_to_index(next_move)
   
   if valid_move?(board, index)
+    move(board, index, )
 end
 
 def turn_count(board)
