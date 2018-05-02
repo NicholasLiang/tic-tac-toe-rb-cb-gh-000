@@ -61,3 +61,5 @@ def current_player(board)
   end
   "O"
 end
+
+def won?(board)
