@@ -63,7 +63,7 @@ def current_player(board)
 end
 
 def won?(board)
-  
+  WIN_COMBINATIONS.
 end
 
 def full?(board)
