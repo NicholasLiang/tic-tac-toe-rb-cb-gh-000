@@ -68,7 +68,7 @@ def won?(board)
         position_taken?(board,winArr[1]) &&
          position_taken?(board,winArr[2]) 
       
-      
+      position1 = 
     
 end
 
