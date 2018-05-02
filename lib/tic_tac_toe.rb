@@ -98,4 +98,5 @@ def winner(board)
   else
     return board[won?(board)[0]]
   end
+  false
 end
