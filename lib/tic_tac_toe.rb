@@ -65,8 +65,9 @@ end
 def won?(board)
   WIN_COMBINATIONS.each do |winArr|
     if !position_taken?(board,winArr[0]) &&
-      !position_taken?(board,winArr[1]) &&
-      !position_taken?(board,winArr[3]) 
+        !position_taken?(board,winArr[1]) &&
+         !position_taken?(board,winArr[2]) 
+      
     
 end
 
