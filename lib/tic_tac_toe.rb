@@ -106,6 +106,7 @@ def play(board)
     turn(board)
   else
     win = winner(board)
-    if win == 
+    if win == nil
+      puts ""
   end
 end
