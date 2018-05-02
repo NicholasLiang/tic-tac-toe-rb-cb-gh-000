@@ -102,5 +102,5 @@ def winner(board)
 end
 
 def play(board)
-  if !full()
+  if !full(board)
 end
